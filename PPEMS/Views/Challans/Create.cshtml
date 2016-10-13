@@ -1,0 +1,83 @@
+﻿@model Challan
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<link rel="stylesheet" href="~/Content/CSS/bootstrap-datepicker.css" />
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+<div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="card-box">
+                    <div class="row">
+                        <div class="col-sm-12 col-xs-12 col-md-6">
+                            <h4 class="header-title m-t-0">Create Challan</h4>
+                            <div class="p-20">
+                                @using (Html.BeginForm("Create", "Challans", FormMethod.Post))
+                                {
+
+                                    @Html.AntiForgeryToken()
+                                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 form-control-label">Challan<span class="text-danger">*</span></label>
+                                        <div class="col-sm-7">
+                                            @Html.TextBoxFor(model => model.ChallanNo, new { @placeholder = "Challan #", @class = "form-control", @required = "required" })
+                                            @Html.ValidationMessageFor(model => model.ChallanNo, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 form-control-label">Date<span class="text-danger">*</span></label>
+                                        <div class="col-sm-7">
+                                            @Html.TextBoxFor(model => model.Date, new { @placeholder = "mm/dd/yyyy", @class = "form-control datepicker", @required = "required" })
+                                            @Html.ValidationMessageFor(model => model.Date, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 form-control-label">Remarks<span class="text-danger">*</span></label>
+                                        <div class="col-sm-7">
+                                            @Html.TextBoxFor(model => model.Remarks, new { @placeholder = "Remarks", @class = "form-control", @required = "required" })
+                                            @Html.ValidationMessageFor(model => model.Remarks, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 form-control-label">Project<span class="text-danger">*</span></label>
+                                        <div class="col-sm-7">
+                                            @Html.DropDownListFor(model => model.ProjectID, (IEnumerable<SelectListItem>)ViewBag.ProjectID, "Select Project", new { @placeholder = "Client Spkoesman", @class = "form-control", @required = "required" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 form-control-label">Client Address<span class="text-danger">*</span></label>
+                                        <div class="col-sm-7">
+                                            @Html.TextAreaFor(model => model.Body, 3, 6, new { @placeholder = "Body", @class = "form-control", @required = "required" })
+                                            @Html.ValidationMessageFor(model => model.Body, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-sm-8 col-sm-offset-4">
+                                            <button type="submit" class="btn btn-primary waves-effect waves-light">
+                                                Create
+                                            </button>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script>
+    $.getScript("../Scripts/bootstrap-datepicker.js", function () {
+        $(".datepicker").datepicker({
+        });
+    });
+</script>

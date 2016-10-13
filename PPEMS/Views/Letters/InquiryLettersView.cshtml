@@ -1,0 +1,75 @@
+﻿@model VendorInquiryViewModel
+@{
+    ViewBag.Title = "InquiryLettersView";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="card-box">
+                    <div class="panel-body">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <h3 class="logo">PAK PREMIER ENGG</h3>
+                            </div>
+                            <div class="pull-right">
+                                <h5>
+                                    Refrence # <br>
+                                    <small>@Model.ReferenceNo</small>
+                                </h5>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="pull-xs-left m-t-30">
+                                    <address>
+                                        <strong>@Model.VendorCompanyName</strong><br>
+                                        @Model.VendorAddress<br>
+                                    </address><br />
+                                    <address>
+                                        <strong>Attn: </strong>@Model.Attention<br />
+                                        <strong>Subject: </strong>@Model.Subject<br />
+                                    </address>
+                                </div>
+                                <div class="pull-xs-right m-t-30">
+                                    <p><strong>Date: </strong> @Model.Date</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <br />
+                        <div class="m-h-50"></div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="table-responsive">
+                                    @Html.Raw(Model.Body)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <div class="clearfix m-t-30">
+                                    Thank You
+                                    <h5 class="small text-inverse font-600"><b>From: PAK PREMIER ENGG</b></h5>
+                                    <br />
+                                    <h5 class="small text-inverse font-600"><b>From: @Model.Sender</b></h5>
+                                    <h5 class="small text-inverse font-600"><b>@Model.SenderDesignation</b></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="hidden-print">
+                            <div class="pull-xs-right">
+                                <a href="javascript:window.print()" class="btn btn-dark waves-effect waves-light"><i class="fa fa-print"></i></a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

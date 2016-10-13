@@ -1,0 +1,396 @@
+﻿<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>@ViewBag.Title</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="~/Content/CSS/animate.css">
+    <link rel="stylesheet" href="~/Content/CSS/icomoon.css">
+    <link rel="stylesheet" href="~/Content/CSS/simple-line-icons.css">
+    <link rel="stylesheet" href="~/Content/CSS/bootstrap.css">
+    <link rel="stylesheet" href="~/Content/CSS/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/Content/CSS/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/Content/CSS/mycss.css">
+    <link href="~/Content/CSS/hover-min.css" rel="stylesheet">
+    <link href="~/Content/CSS/font-awesome.min.css" rel="stylesheet">
+    <!-- Modernizr JS -->
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <header role="banner" id="template-header">
+        <div class="fluid-container">
+            <nav class="navbar navbar-default">
+                @*<div class="navbar-header">
+                        <a href="#" class="js-template-nav-toggle template-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+                        <a class="navbar-brand" href="index-2.html"><span>D</span>aisy</a>
+                    </div>*@
+                <div @*id="navbar"*@ class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#template-home" @*data-nav-section="home"*@><span>Home</span></a></li>
+                        <li><a href="#template-explore" @*data-nav-section="explore"*@><span>Summery</span></a></li>
+                        <li><a href="#template-services" @*data-nav-section="services"*@><span>Services</span></a></li>
+                        <li><a href="#template-team" @*data-nav-section="team"*@><span>Team</span></a></li>
+                        <li><a href="#template-faq" @*data-nav-section="faq"*@><span>About Us</span></a></li>
+                        <li><a href="#template-trusted" @*data-nav-section="faq"*@><span>Trusted By</span></a></li>
+                        <li><a href="#template-footer" @*data-nav-section="home"*@><span>Contact Us</span></a></li>
+                        <li><a href="@Url.Action("Login","Account")"><span>Sign In</span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section id="template-home" data-section="home" style="background-image: url('../../Content/Images/1.jpg');">
+        <div class="gradient"></div>
+        <div class="container">
+            <div class="text-wrap">
+                <div class="text-inner">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+
+                            <h1 class="to-animate"><font color="white" size="40">Pak Premier Engineering</font></h1>
+                            <h2 class="to-animate"><font color="white">Your Satisfaction Our Responsibility</font></h2>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="template-explore" data-section="explore">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 section-heading text-center">
+                    <h2 class="to-animate">Summery</h2>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 subtext to-animate">
+                            <h3>We serve our clients as neighbors: the way we would want to be served. We aim to provide our clients with efficient and reliable service. We encourage our staff to use their skills and experience to deliver the best solutions for each project. We want to provide not only safe, but also environmentally friendly solutions to our customers’ comfort needs. We foster relationships with both our Customers and our Clients by standing by our word and our work. We offer quality, state-of-the-art HVAC Installation and materials from these tended relationships and deliver that effort to our customers.</h3>
+                            <span class="circle1">o</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="template-explore">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-4 to-animate-2">
+                        <img class="img-responsive" src="~/Content/Images/r1.jpg" alt="work">
+                    </div>
+                    <div class="col-md-4 col-md-pull-8 to-animate-2">
+                        <div class="mt mt-off">
+                            <h3>Experience & Expertise</h3>
+                            <p>With the help of our hardworking staff we are able to work on following areas:-</p>
+                            <ul class="list-nav">
+                                <li><i class="icon-check2"></i>Office Building</li>
+                                <li><i class="icon-check2"></i>Commercial Building</li>
+                                <li><i class="icon-check2"></i>Industrial Complex</li>
+                                <li><i class="icon-check2"></i>Residential Compound</li>
+                                <li><i class="icon-check2"></i>Restaurants</li>
+                                <li><i class="icon-check2"></i>Cinemas</li>
+                                <li><i class="icon-check2"></i>Educational Institutes</li>
+                                <li><i class="icon-check2"></i>Hospitals, e.t.c</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="template-explore template-explore-bg-color">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 to-animate-3">
+                        <img class="img-responsive" src="~/Content/Images/3.jpg" alt="work">
+                    </div>
+                    <div class="col-md-4 to-animate-3">
+                        <div class="mt mt-off">
+                            <div>
+                                <h4><i class="icon-people"></i>Team Work</h4>
+                                <p>We promote teamwork to reduce the workload form our employees</p>
+                            </div>
+                            <div>
+                                <h4><i class="icon-video2"></i>Benchmarking</h4>
+                                <p>We focus on benchmarking for polishing the future of our company</p>
+                            </div>
+                            <div>
+                                <h4><i class="icon-shield"></i>Deadlines</h4>
+                                <p>We prioritize our work to satisfy customers required deadlines</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    @RenderBody()
+
+    <section id="template-services" data-section="services">
+        <div class="template-services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 section-heading text-center">
+                        <h2 class="to-animate">We Offer Services</h2>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 subtext">
+                                <h3>Pak Premier Engineers in the past have successfully completed various projects of Heating, Ventilation and Air-Conditioning to the entire satisfaction of their clients. These projects mainly comprise of commercial, residential, industrial, public services and project management.</h3>
+                                <span class="circle1">o</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="box-services">
+                            <div class="template-post to-animate">
+                                <h3>Mechanical Equipment & Structure Installation</h3>
+                            </div>
+                        </div>
+                        <div class="box-services">
+                            <div class="template-post to-animate">
+                                <h3>G.I., M.S. S.S. and Refrigerant Pipe Fabrication and Installation</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="box-services">
+                            <div class="template-post to-animate">
+                                <h3>G.I., M.S., S.S. Sheet Duct Fabrication and Installation</h3>
+                            </div>
+                        </div>
+                        <div class="box-services">
+                            <div class="template-post to-animate">
+                                <h3>Electrical Works Related to HVAC & R System</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="box-services">
+                            <div class="template-post to-animate">
+                                <h3>Operation & Maintenance of HVAC & R System</h3>
+                            </div>
+                        </div>
+                        <div class="box-services">
+                            <div class="template-post to-animate">
+                                <h3>Project Planning, Controlling & Monitoring</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="parallax-1" style="background-image: url('../../Content/Images/2.jpg');">
+        <div class="over"></div>
+
+        <div class="col-md-8 col-md-offset-2">
+
+            <h1 class="overh1">Outlets</h1>
+
+        </div>
+
+    </section>
+
+    <section id="template-team" data-section="team">
+        <div class="template-team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 section-heading text-center">
+                        <h2 class="to-animate">Meet Our Team</h2>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 subtext">
+                                <h3>We have best team to work together</h3>
+                                <span class="circle1">o</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="team-box text-center to-animate-2">
+                            <div class="user"><img class="img-reponsive" src="~/Content/Images/m1.jpg" alt="Roger Garfield"></div>
+                            <h3>Muhammad Fayyaz</h3>
+                            <span class="position">CEO</span>
+                            <p></p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="team-box text-center to-animate-2">
+                            <div class="user"><img class="img-reponsive" src="~/Content/Images/m2.jpg" alt="Roger Garfield"></div>
+                            <h3>Muhammad Umar Fayyaz</h3>
+                            <span class="position">Project Engineer</span>
+                            <p></p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="team-box text-center to-animate-2">
+                            <div class="user"><img class="img-reponsive" src="~/Content/Images/m3.jpg" alt="Roger Garfield"></div>
+                            <h3>Javed Umar</h3>
+                            <span class="position">Manager</span>
+                            <p></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="template-faq" data-section="faq">
+        <div class="template-faq">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 section-heading text-center">
+                        <h2 class="to-animate">About Us</h2>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 subtext">
+                                <h3 class="question-header to-animate">Everything you need to know before you get started</h3>
+                                <span class="circle1">o</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="box-faq to-animate-2">
+                            <div class="col-md-8 col-md-offset-2 subtext to-animate">
+                                <p>
+                                    Pak Premier Engineering was established in 1992 as an HVAC Construction Company. Since then it has expanded in manifolds including the Ducting, Piping and HVAC Equipment Installation as well.
+                                    Pak Premier Engineers is a group of professionally well-qualified, talented personnel who can undertake Air-Conditioning Construction Works and Maintenance and Project Management Assignment with meticulous responsibility and technical expertise.
+                                    Pak Premier Engineers in the past have successfully completed various projects of Heating, Ventilation and Air-Conditioning to the entire satisfaction of their clients. These projects mainly comprise of commercial, residential, industrial, public services and project management.
+                                    <br />
+                                    <br />
+                                    To provide a strong and organized mother base for handling projects of more magnitude and disciplines, we substantiate with an equally back up support, such: -
+                                    <font size="3">
+                                        <ul class="ti-list-ol">
+                                            <li>Pre-feasibility, estimation, construction as well as project management.</li>
+                                            <li>Pak Premier Engineering is established on joint partnership basis, whose services are available collectively, jointly or independently. This practice leads to expertise with vast and varied experiences in the particular sub-specialties. The support of associate consultants and their relevant staff enables us to accept the professional challenge comparable to none.</li>
+                                            <li>Pak Premier Engineers with the management and technical expertise of its staff has the capability of undertaking all types of Air-Conditioning, Mechanical and Electrical works.</li>
+                                            <li>Premier Engineers with its technical competence and its sound financial standing is capable of completing works with in scheduled time period and to the requisite standards of quality and performance.</li>
+
+                                        </ul>
+                                    </font>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="template-trusted" data-section="trusted">
+        <div class="template-trusted">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 section-heading text-center">
+                        <h2 class="to-animate">Trusted By</h2>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 subtext">
+                                <h3 class="section-main-header trusted-header to-animate">We’re trusted by these popular companies</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 col-sm-3 col-xs-6 col-sm-offset-0 col-md-offset-1">
+                        <div class="partner-logo to-animate-2">
+                            <img src="~/Content/Images/j1.jpg" alt="Partners" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-6">
+                        <div class="partner-logo to-animate-2">
+                            <img src="~/Content/Images/j2.png" alt="Partners" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-6">
+                        <div class="partner-logo to-animate-2">
+                            <img src="~/Content/Images/j3.png" alt="Partners" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-6">
+                        <div class="partner-logo to-animate-2">
+                            <img src="~/Content/Images/j4.jpg" alt="Partners" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-6">
+                        <div class="partner-logo to-animate-2">
+                            <img src="~/Content/Images/j5.jpg" alt="Partners" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="template-footer" data-section="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 to-animate">
+                    <h3 class="section-header section-title">About Us</h3>
+                    <p> Pak Premier Engineers in the past have successfully completed various projects of Heating, Ventilation and Air-Conditioning to the entire satisfaction of their clients. These projects mainly comprise of commercial, residential, industrial, public services and project management.</p>
+                    <p class="copy-right">
+                        &copy; 2015 Pak Premier Engineering <br>All Rights Reserved. <br>
+                    </p>
+                </div>
+                <div class="col-md-4 to-animate">
+                    <h3 class="section-header section-title">Our Address</h3>
+                    <ul class="contact-info">
+                        <li><i class="icon-map-marker"></i>Pak Premier Engineering, Office # 304, Divine Plaza, Airport Road, Lahore</li>
+                        <li><i class="icon-phone"></i>+92-42-37397447</li>
+                    </ul>
+                    <h3 class="section-header section-title">Connect with Us</h3>
+                    <ul class="social-media">
+                        <li><a href="https://www.facebook.com/" class="facebook"><i class="icon-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/login?lang=en" class="twitter"><i class="icon-twitter"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 to-animate">
+                    <h3 class="section-header section-title">Drop us a line</h3>
+                    <div id="message"></div>
+                    @using (Html.BeginForm("Contact", "Home", FormMethod.Post))
+                    {
+                        @Html.AntiForgeryToken()
+                        <div class="form-group">
+                            <label for="name" class="sr-only">Name</label>
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="sr-only">Email</label>
+                            <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="sr-only">Message</label>
+                            <textarea name="comments" class="form-control" id="comments" rows="7" placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" id="btn-submit" class="btn btn-send-message btn-md" value="Send Message" required>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery.easing.1.3.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery.waypoints.js"></script>
+    <script src="~/Scripts/jquery.stellar.min.js"></script>
+    <script src="~/Scripts/owl.carousel.min.js"></script>
+    <script src="~/Scripts/main.js"></script>
+</body>
+</html>

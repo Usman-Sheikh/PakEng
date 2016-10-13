@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Attendance>
+
+@{
+    Layout = null;
+    List<DateTime> date = new List<DateTime>();
+    dynamic c;
+    foreach (var it in ViewBag.Date)
+    {
+        var d = Convert.ToDateTime(it);
+        date.Add(d);
+    }
+    c = date;
+}
+
+<table class="table">
+    <thead class="thead-default">
+        <tr>
+            <th>Date</th>
+            @foreach (var item in ViewBag.Date)
+            {
+                <th>@item</th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+    <tbody>
+        @foreach (var item in Model.Select(s => s.Employee.Name).Distinct().ToList())
+        {
+            <tr>
+                <td>@item</td>
+                @{
+
+                    foreach (var i in c)
+                    {
+                        foreach (var att in Model.Where(a => a.Employee.Name == item && a.AttendanceDate == i))
+                        {
+                            if (att.MarkAttendance == "A")
+                            {
+                                <td>A</td>
+                            }
+                            else if (att.MarkAttendance == "P")
+                            {
+                                <td>P</td>
+                            }
+                            else
+                            {
+                                <td>N/A</td>
+                            }
+                        }
+                    }
+                    }
+
+            </tr>
+                    }
+    </tbody>
+
+</table>

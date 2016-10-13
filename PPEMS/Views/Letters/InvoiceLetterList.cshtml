@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Invoice>
+@{
+    int n = 0;
+}
+
+<thead>
+    <tr role="row">
+        <th>#</th>
+        <th>Reference #</th>
+        <th>Company Name</th>
+        <th>Send by</th>
+        <th>Date</th>
+        <th>Preview</th>
+    </tr>
+</thead>
+<tbody>
+    @foreach (var item in Model)
+    {
+        {
+            n += 1;
+        }
+        <tr>
+            <th scope="row">@n</th>
+            <td>@item.RefNo</td>
+            <td>@item.Project.ClientCompanyName</td>
+            <td>@item.Sender</td>
+            <td>@item.Date.ToString("d")</td>
+            <td><a href="@Url.Action("invoiceLettersView", "Letters", new { id = item.InvoiceID })"><i class="fa-2x ion-document-text"></i></a></td>
+        </tr>
+    }
+</tbody>

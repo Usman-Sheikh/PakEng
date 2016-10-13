@@ -1,0 +1,49 @@
+﻿@model IEnumerable<ChallanItems>
+@{
+    int n = 0;
+}
+@*<script src="~/Scripts/jquery-1.10.2.min.js"></script>*@
+@*<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>*@
+<div id="itemsList">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card-box table-responsive">
+                <div class="btn-group dropdown">
+                    <button type="button" class="btn btn-success waves-effect waves-light">Export</button>
+                    <button type="button" class="btn btn-success dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-expanded="false"><i class="caret"></i></button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="@Url.Action("ChallanItem","Admin",new {ReportType="PDF",id= ViewBag.ChallanId })">PDF</a>
+                        <a class="dropdown-item" href="@Url.Action("ChallanItem","Admin",new {ReportType="Excel",id= ViewBag.ChallanId })">Excel</a>
+                        <a class="dropdown-item" href="@Url.Action("ChallanItem","Admin",new {ReportType="Word",id= ViewBag.ChallanId })">Word</a>
+                    </div>
+                </div>
+                <table id="datatable" class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <td>#</td>
+                            <td>Unit</td>
+                            <td>Quantity</td>
+                            <td>Description</td>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            {
+                                n += 1;
+                            }
+                            <tr id="showData">
+                                <td>@n</td>
+                                <td>@item.Unit</td>
+                                <td>@item.Quantity</td>
+                                <td>@item.Description</td>
+
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+﻿@*<script src="~/Scripts/jquery-1.10.2.min.js"></script>*@
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+
+@using (Ajax.BeginForm("ChallaItemForm", "Challans", new AjaxOptions { UpdateTargetId = "ChallanItemForm", InsertionMode = InsertionMode.ReplaceWith }))
+{
+    <div class="row col-md-6 col-sm-6 col-lg-6">
+        <div class="form-group col-md-5">
+            <label class="col-sm-4 form-control-label">Challan<span class="text-danger">*</span></label>
+            @Html.DropDownList("Challan", (IEnumerable<SelectListItem>)ViewBag.Challan, "Select Challan", new { @class = "form-control" })
+        </div>
+    </div>
+}
+<script>
+    $(document).ready(function () {
+        $('#Challan').change(function () {
+            $('option:selected', $(this)).text();
+            $(this).parents('form').submit();
+        });
+    });
+</script>

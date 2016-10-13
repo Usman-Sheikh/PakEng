@@ -1,0 +1,32 @@
+﻿@model IEnumerable<PaymentLetterViewModel>
+@{
+    int n = 0;
+}
+
+<thead>
+    <tr role="row">
+        <th>#</th>
+        <th>Reference #</th>
+        <th>Company Name</th>
+        <th>Send by</th>
+        <th>Date</th>
+        <th>Preview</th>
+    </tr>
+</thead>
+<tbody>
+    @foreach (var item in Model)
+    {
+        {
+            n += 1;
+        }
+        <tr>
+            <th scope="row">@n</th>
+            <td>@item.ReferenceNo</td>
+            <td>@item.ClientCompanyName</td>
+            <td>@item.Sender</td>
+            <td>@item.Date</td>
+            <td><a href="@Url.Action("PaymentsLettersView", "Letters", new { id = item.Id })"><i class="fa-2x ion-document-text"></i></a></td>
+        </tr>
+    }
+</tbody>
+

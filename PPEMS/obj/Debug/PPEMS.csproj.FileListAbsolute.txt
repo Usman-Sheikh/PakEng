@@ -1,0 +1,441 @@
+E:\Github\PPEMS\PPEMS\bin\roslyn\csc.exe
+E:\Github\PPEMS\PPEMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Github\PPEMS\PPEMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Github\PPEMS\PPEMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Github\PPEMS\PPEMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Github\PPEMS\PPEMS\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Github\PPEMS\PPEMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Github\PPEMS\PPEMS\bin\roslyn\System.Collections.Immutable.dll
+E:\Github\PPEMS\PPEMS\bin\roslyn\System.Reflection.Metadata.dll
+E:\Github\PPEMS\PPEMS\bin\roslyn\vbc.exe
+E:\Github\PPEMS\PPEMS\bin\roslyn\VBCSCompiler.exe
+E:\Github\PPEMS\PPEMS\bin\roslyn\VBCSCompiler.exe.config
+E:\Github\PPEMS\PPEMS\bin\PPEMS.dll.config
+E:\Github\PPEMS\PPEMS\bin\PPEMS.dll
+E:\Github\PPEMS\PPEMS\bin\PPEMS.pdb
+E:\Github\PPEMS\PPEMS\bin\Antlr3.Runtime.dll
+E:\Github\PPEMS\PPEMS\bin\EntityFramework.dll
+E:\Github\PPEMS\PPEMS\bin\EntityFramework.SqlServer.dll
+E:\Github\PPEMS\PPEMS\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Github\PPEMS\PPEMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Github\PPEMS\PPEMS\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Github\PPEMS\PPEMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Github\PPEMS\PPEMS\bin\Microsoft.Owin.dll
+E:\Github\PPEMS\PPEMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Github\PPEMS\PPEMS\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Github\PPEMS\PPEMS\bin\Microsoft.Owin.Security.dll
+E:\Github\PPEMS\PPEMS\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Github\PPEMS\PPEMS\bin\Microsoft.Owin.Security.Google.dll
+E:\Github\PPEMS\PPEMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Github\PPEMS\PPEMS\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Github\PPEMS\PPEMS\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Github\PPEMS\PPEMS\bin\Microsoft.Web.Infrastructure.dll
+E:\Github\PPEMS\PPEMS\bin\Newtonsoft.Json.dll
+E:\Github\PPEMS\PPEMS\bin\Owin.dll
+E:\Github\PPEMS\PPEMS\bin\PagedList.dll
+E:\Github\PPEMS\PPEMS\bin\PagedList.EntityFramework.dll
+E:\Github\PPEMS\PPEMS\bin\PagedList.Mvc.dll
+E:\Github\PPEMS\PPEMS\bin\System.Web.Helpers.dll
+E:\Github\PPEMS\PPEMS\bin\System.Web.Mvc.dll
+E:\Github\PPEMS\PPEMS\bin\System.Web.Optimization.dll
+E:\Github\PPEMS\PPEMS\bin\System.Web.Razor.dll
+E:\Github\PPEMS\PPEMS\bin\System.Web.WebPages.Deployment.dll
+E:\Github\PPEMS\PPEMS\bin\System.Web.WebPages.dll
+E:\Github\PPEMS\PPEMS\bin\System.Web.WebPages.Razor.dll
+E:\Github\PPEMS\PPEMS\bin\WebGrease.dll
+E:\Github\PPEMS\PPEMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Github\PPEMS\PPEMS\bin\PagedList.xml
+E:\Github\PPEMS\PPEMS\bin\PagedList.EntityFramework.pdb
+E:\Github\PPEMS\PPEMS\bin\PagedList.EntityFramework.xml
+E:\Github\PPEMS\PPEMS\bin\PagedList.Mvc.xml
+E:\Github\PPEMS\PPEMS\bin\System.Web.Helpers.xml
+E:\Github\PPEMS\PPEMS\bin\System.Web.Mvc.xml
+E:\Github\PPEMS\PPEMS\bin\System.Web.Optimization.xml
+E:\Github\PPEMS\PPEMS\bin\System.Web.Razor.xml
+E:\Github\PPEMS\PPEMS\bin\System.Web.WebPages.xml
+E:\Github\PPEMS\PPEMS\bin\System.Web.WebPages.Deployment.xml
+E:\Github\PPEMS\PPEMS\bin\System.Web.WebPages.Razor.xml
+E:\Github\PPEMS\PPEMS\bin\Antlr3.Runtime.pdb
+E:\Github\PPEMS\PPEMS\bin\Newtonsoft.Json.xml
+E:\Github\PPEMS\PPEMS\bin\EntityFramework.xml
+E:\Github\PPEMS\PPEMS\bin\EntityFramework.SqlServer.xml
+E:\Github\PPEMS\PPEMS\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Github\PPEMS\PPEMS\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Github\PPEMS\PPEMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Github\PPEMS\PPEMS\bin\Microsoft.Owin.xml
+E:\Github\PPEMS\PPEMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Github\PPEMS\PPEMS\bin\Microsoft.Owin.Security.xml
+E:\Github\PPEMS\PPEMS\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Github\PPEMS\PPEMS\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Github\PPEMS\PPEMS\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Github\PPEMS\PPEMS\bin\Microsoft.Owin.Security.Google.xml
+E:\Github\PPEMS\PPEMS\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Github\PPEMS\PPEMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Github\PPEMS\PPEMS\obj\Debug\PPEMS.Migrations.initial.resources
+E:\Github\PPEMS\PPEMS\obj\Debug\PPEMS.Migrations.second.resources
+E:\Github\PPEMS\PPEMS\obj\Debug\PPEMS.Migrations.payment.resources
+E:\Github\PPEMS\PPEMS\obj\Debug\PPEMS.Migrations.tftg.resources
+E:\Github\PPEMS\PPEMS\obj\Debug\PPEMS.Migrations.dfg.resources
+E:\Github\PPEMS\PPEMS\obj\Debug\PPEMS.Migrations._342r.resources
+E:\Github\PPEMS\PPEMS\obj\Debug\PPEMS.Migrations.sdas.resources
+E:\Github\PPEMS\PPEMS\obj\Debug\PPEMS.Migrations.adasc.resources
+E:\Github\PPEMS\PPEMS\obj\Debug\PPEMS.csproj.GenerateResource.Cache
+E:\Github\PPEMS\PPEMS\obj\Debug\PPEMS.dll
+E:\Github\PPEMS\PPEMS\obj\Debug\PPEMS.pdb
+E:\Github\PPEMS\PPEMS\obj\Debug\PPEMS.csprojResolveAssemblyReference.cache
+E:\Github\PPEMS\PPEMS\obj\Debug\PPEMS.Migrations.invoicevalidate.resources
+E:\Bitbucket\PPEMS\PPEMS\bin\roslyn\csc.exe
+E:\Bitbucket\PPEMS\PPEMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Bitbucket\PPEMS\PPEMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Bitbucket\PPEMS\PPEMS\bin\roslyn\System.Collections.Immutable.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\roslyn\System.Reflection.Metadata.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\roslyn\vbc.exe
+E:\Bitbucket\PPEMS\PPEMS\bin\roslyn\VBCSCompiler.exe
+E:\Bitbucket\PPEMS\PPEMS\bin\roslyn\VBCSCompiler.exe.config
+E:\Bitbucket\PPEMS\PPEMS\bin\PPEMS.dll.config
+E:\Bitbucket\PPEMS\PPEMS\bin\PPEMS.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\PPEMS.pdb
+E:\Bitbucket\PPEMS\PPEMS\bin\Antlr3.Runtime.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\EntityFramework.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\EntityFramework.SqlServer.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.Owin.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.Owin.Security.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.Owin.Security.Google.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.Web.Infrastructure.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\Newtonsoft.Json.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\Owin.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\PagedList.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\PagedList.EntityFramework.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\PagedList.Mvc.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\System.Web.Helpers.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\System.Web.Mvc.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\System.Web.Optimization.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\System.Web.Razor.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\System.Web.WebPages.Deployment.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\System.Web.WebPages.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\System.Web.WebPages.Razor.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\WebGrease.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\PagedList.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\PagedList.EntityFramework.pdb
+E:\Bitbucket\PPEMS\PPEMS\bin\PagedList.EntityFramework.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\PagedList.Mvc.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\System.Web.Helpers.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\System.Web.Mvc.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\System.Web.Optimization.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\System.Web.Razor.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\System.Web.WebPages.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\System.Web.WebPages.Deployment.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\System.Web.WebPages.Razor.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\Antlr3.Runtime.pdb
+E:\Bitbucket\PPEMS\PPEMS\bin\Newtonsoft.Json.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\EntityFramework.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\EntityFramework.SqlServer.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.Owin.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.Owin.Security.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.Owin.Security.Google.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Bitbucket\PPEMS\PPEMS\obj\Debug\PPEMS.dll
+E:\Bitbucket\PPEMS\PPEMS\obj\Debug\PPEMS.pdb
+E:\Bitbucket\PPEMS\PPEMS\obj\Debug\PPEMS.csprojResolveAssemblyReference.cache
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.ReportViewer.WebForms.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\Microsoft.SqlServer.Types.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\de\Microsoft.SqlServer.Types.resources.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\es\Microsoft.SqlServer.Types.resources.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\fr\Microsoft.SqlServer.Types.resources.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\it\Microsoft.SqlServer.Types.resources.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\ja\Microsoft.SqlServer.Types.resources.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\ko\Microsoft.SqlServer.Types.resources.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\pt\Microsoft.SqlServer.Types.resources.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\ru\Microsoft.SqlServer.Types.resources.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+E:\Bitbucket\PPEMS\PPEMS\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+E:\Bitbucket\PPEMS\PPEMS\obj\Debug\PPEMS.Migrations.intialdb.resources
+E:\Bitbucket\PPEMS\PPEMS\obj\Debug\PPEMS.csproj.GenerateResource.Cache
+E:\Bitbucket\PakEngineering\PPEMS\bin\roslyn\csc.exe
+E:\Bitbucket\PakEngineering\PPEMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Bitbucket\PakEngineering\PPEMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Bitbucket\PakEngineering\PPEMS\bin\roslyn\System.Collections.Immutable.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\roslyn\System.Reflection.Metadata.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\roslyn\vbc.exe
+E:\Bitbucket\PakEngineering\PPEMS\bin\roslyn\VBCSCompiler.exe
+E:\Bitbucket\PakEngineering\PPEMS\bin\roslyn\VBCSCompiler.exe.config
+E:\Bitbucket\PakEngineering\PPEMS\bin\PPEMS.dll.config
+E:\Bitbucket\PakEngineering\PPEMS\bin\PPEMS.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\PPEMS.pdb
+E:\Bitbucket\PakEngineering\PPEMS\bin\Antlr3.Runtime.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\EntityFramework.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\EntityFramework.SqlServer.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.Owin.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.Google.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.ReportViewer.Common.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.ReportViewer.WebForms.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.Web.Infrastructure.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\Newtonsoft.Json.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\Owin.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\PagedList.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\PagedList.EntityFramework.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\PagedList.Mvc.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\System.Web.Helpers.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\System.Web.Mvc.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\System.Web.Optimization.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\System.Web.Razor.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\System.Web.WebPages.Deployment.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\System.Web.WebPages.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\System.Web.WebPages.Razor.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\WebGrease.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.SqlServer.Types.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\PagedList.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\PagedList.EntityFramework.pdb
+E:\Bitbucket\PakEngineering\PPEMS\bin\PagedList.EntityFramework.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\PagedList.Mvc.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\System.Web.Helpers.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\System.Web.Mvc.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\System.Web.Optimization.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\System.Web.Razor.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\System.Web.WebPages.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\System.Web.WebPages.Deployment.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\System.Web.WebPages.Razor.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\Antlr3.Runtime.pdb
+E:\Bitbucket\PakEngineering\PPEMS\bin\Newtonsoft.Json.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\EntityFramework.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\EntityFramework.SqlServer.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.Owin.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.Google.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Bitbucket\PakEngineering\PPEMS\bin\de\Microsoft.SqlServer.Types.resources.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\es\Microsoft.SqlServer.Types.resources.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\fr\Microsoft.SqlServer.Types.resources.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\it\Microsoft.SqlServer.Types.resources.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\ja\Microsoft.SqlServer.Types.resources.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\ko\Microsoft.SqlServer.Types.resources.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\pt\Microsoft.SqlServer.Types.resources.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\ru\Microsoft.SqlServer.Types.resources.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+E:\Bitbucket\PakEngineering\PPEMS\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+E:\Bitbucket\PakEngineering\PPEMS\obj\Debug\RdlCompile.cache
+E:\Bitbucket\PakEngineering\PPEMS\obj\Debug\RdlCompile.compiled
+E:\Bitbucket\PakEngineering\PPEMS\obj\Debug\PPEMS.dll
+E:\Bitbucket\PakEngineering\PPEMS\obj\Debug\PPEMS.pdb
+E:\Bitbucket\PakEngineering\PPEMS\obj\Debug\PPEMS.csprojResolveAssemblyReference.cache
+E:\Bitbucket\PakEngineering\PPEMS\obj\Debug\PPEMS.Migrations.initial.resources
+E:\Bitbucket\PakEngineering\PPEMS\obj\Debug\PPEMS.csproj.GenerateResource.Cache
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\roslyn\csc.exe
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\roslyn\System.Collections.Immutable.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\roslyn\System.Reflection.Metadata.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\roslyn\vbc.exe
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\roslyn\VBCSCompiler.exe
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\roslyn\VBCSCompiler.exe.config
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\PPEMS.dll.config
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\PPEMS.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\PPEMS.pdb
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Antlr3.Runtime.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\EntityFramework.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\EntityFramework.SqlServer.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.Owin.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.Google.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.ReportViewer.Common.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.Web.Infrastructure.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Newtonsoft.Json.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Owin.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\PagedList.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\PagedList.EntityFramework.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\PagedList.Mvc.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\System.Web.Helpers.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\System.Web.Mvc.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\System.Web.Optimization.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\System.Web.Razor.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\System.Web.WebPages.Deployment.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\System.Web.WebPages.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\System.Web.WebPages.Razor.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\WebGrease.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\PagedList.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\PagedList.EntityFramework.pdb
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\PagedList.EntityFramework.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\PagedList.Mvc.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\System.Web.Helpers.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\System.Web.Mvc.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\System.Web.Optimization.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\System.Web.Razor.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\System.Web.WebPages.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\System.Web.WebPages.Deployment.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\System.Web.WebPages.Razor.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Antlr3.Runtime.pdb
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Newtonsoft.Json.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\EntityFramework.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\EntityFramework.SqlServer.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.Owin.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.Google.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\obj\Debug\PPEMS.csprojResolveAssemblyReference.cache
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\obj\Debug\PPEMS.Migrations.initial.resources
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\obj\Debug\PPEMS.csproj.GenerateResource.Cache
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\obj\Debug\PPEMS.dll
+E:\Ufffffffffff stUdY\fyp\project\PakEngineering\PPEMS\obj\Debug\PPEMS.pdb
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\roslyn\csc.exe
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\roslyn\vbc.exe
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\PPEMS.dll.config
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\PPEMS.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\PPEMS.pdb
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Antlr3.Runtime.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\EntityFramework.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\EntityFramework.SqlServer.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.Owin.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.Owin.Security.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Newtonsoft.Json.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Owin.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\PagedList.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\PagedList.EntityFramework.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\PagedList.Mvc.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\System.Web.Helpers.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\System.Web.Mvc.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\System.Web.Optimization.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\System.Web.Razor.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\System.Web.WebPages.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\WebGrease.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.SqlServer.Types.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\PagedList.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\PagedList.EntityFramework.pdb
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\PagedList.EntityFramework.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\PagedList.Mvc.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\System.Web.Helpers.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\System.Web.Mvc.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\System.Web.Optimization.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\System.Web.Razor.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\System.Web.WebPages.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Antlr3.Runtime.pdb
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Newtonsoft.Json.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\EntityFramework.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\EntityFramework.SqlServer.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.Owin.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.Owin.Security.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\obj\Debug\PPEMS.csprojResolveAssemblyReference.cache
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\obj\Debug\PPEMS.Migrations.initial.resources
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\obj\Debug\PPEMS.csproj.GenerateResource.Cache
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\obj\Debug\RdlCompile.cache
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\obj\Debug\RdlCompile.compiled
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\obj\Debug\PPEMS.dll
+C:\Users\shusm\Documents\GitHub\PakEng\PPEMS\obj\Debug\PPEMS.pdb

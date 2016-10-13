@@ -1,0 +1,80 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+@model IPagedList<Project>
+
+@{
+    int n = 0;
+    ViewBag.Title = "Projects";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="card-box">
+                    <div class="row">
+                        <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+                            <div class="row">
+                                @using (Html.BeginForm("ProjectsList", "Admin", FormMethod.Get, new { @class = "row col-md-12 col-sm-12 col-lg-12", @style = "margin-left: 10px;" }))
+                                {
+                                    <div class="form-group col-md-7 col-lg-7 col-sm-7">
+                                        @Html.TextBox("search", null, new { @class = "form-control", @placeholder = "Search by Project Title" })
+                                    </div>
+                                    <div class="form-group col-md-3 col-sm-3">
+                                        <button type="submit" class="btn btn-primary">Search</button>
+                                    </div>
+                                }
+                            </div>
+                            <div class="p-20">
+                                <table class="table table-hover table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <td>Title</td>
+                                            <td>Manager Name</td>
+                                            <td>Title</td>
+                                            <td>Reference #</td>
+                                            <td>Client</td>
+                                            <td>Company</td>
+                                            <td>Details</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model)
+                                        {
+                                            {
+                                                n += 1;
+                                            }
+                                            <tr>
+                                                <th scope="row">@n</th>
+                                                <td>@item.Title</td>
+                                                <td>@item.ManagerName</td>
+                                                <td>@item.Title</td>
+                                                <td>@item.ReferenceNo</td>
+                                                <td>@item.Client</td>
+                                                <td>@item.ClientCompanyName</td>
+                                                <td><a href="@Url.Action("ProjectDetails", "Admin", new { id = item.ProjectID })"><i class="fa-2x ion-document-text"></i></a></td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-md-6 m-t-20">
+                            <div>
+                                <nav>
+                                    @Html.PagedListPager(Model, page => Url.Action("ProjectsList", new { page, search = Request.QueryString["search"] }), new PagedListRenderOptions
+                               {
+                                   Display = PagedListDisplayMode.IfNeeded,
+                                   MaximumPageNumbersToDisplay = 3
+                               })
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Attendance>
+
+@{
+    Layout = null;
+    int n = 0;
+}
+
+@using (Html.BeginForm("MarkAttnedance", "Attendances", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <table class="table">
+        <thead class="thead-default">
+            <tr>
+                <th>Checkbox</th>
+                <th>Name</th>
+                <th>Status</th>
+                <th>Sate</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                {
+                    n += 1;
+                }
+                <tr>
+                    <th scope="row">
+                        <input id="@item.AttendanceID" name="Id" value="@item.AttendanceID" type="checkbox">
+                        @*<label for="checkbox21">
+                                Check me out
+                            </label>*@
+                    </th>
+                    <td>@item.Employee.Name</td>
+                    @if (item.MarkAttendance == "A")
+                    {
+                        <td>A</td>
+                    }
+                    else
+                    {
+                        <td>P</td>
+                    }
+                    <td>@item.AttendanceDate.ToString("d")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="form-group row">
+        <div class="col-sm-8 col-sm-offset-4">
+            <button type="submit" class="btn btn-primary waves-effect waves-light">
+                Mark Attendance
+            </button>
+        </div>
+    </div>
+}

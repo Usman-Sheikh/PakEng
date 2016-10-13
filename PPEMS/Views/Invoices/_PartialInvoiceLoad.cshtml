@@ -1,0 +1,20 @@
+﻿<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+
+@using (Ajax.BeginForm("InvoiceItemForm", "Invoices", new AjaxOptions { UpdateTargetId = "InvoiceItemForm", InsertionMode = InsertionMode.ReplaceWith }))
+{
+    <div class="row col-md-6 col-sm-6 col-lg-6">
+        <div class="form-group col-md-5">
+            <label class="col-sm-4 form-control-label">Invoice<span class="text-danger">*</span></label>
+            @Html.DropDownList("Invoice", (IEnumerable<SelectListItem>)ViewBag.Invoice, "Select Invoice", new { @class = "form-control" })
+        </div>
+    </div>
+}
+<script>
+    $(document).ready(function () {
+        $('#Invoice').change(function () {
+            $('option:selected', $(this)).text();
+            $(this).parents('form').submit();
+        });
+    });
+</script>

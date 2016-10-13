@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "FetchAttnedance";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="card-box">
+                    <div class="row">
+                        <div class="col-sm-12 col-xs-12 col-md-6">
+                            <h4 class="header-title m-t-0">Fetch Attendance</h4>
+                            <div class="p-20">
+                                <div class="form-group row">
+                                    <label class="col-sm-4 form-control-label">Select Date<span class="text-danger">*</span></label>
+                                    <div class="col-sm-7">
+                                        @Html.DropDownList("Month", (SelectList)ViewBag.list, "Select Month", new { onchange = "LoadList(this.value);", @class = "form-control" })
+                                    </div>
+                                </div>
+                                <div id="list"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+
+<script type="text/javascript">
+    function LoadList(val) {
+        $('#list').html("please wait");
+        $.ajax({
+            url: "@Url.Action("GetAtt", "Attendances")",
+            type: "GET",
+            data: { Month: val },
+            success: function (data) {
+                $('#list').html(data);
+            },
+            error: function (xhr, error) {
+                alert('Error! ' + error);
+            }
+        });
+    }
+</script>

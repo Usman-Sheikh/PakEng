@@ -1,0 +1,74 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+@model IPagedList<Vendor>
+
+@{
+    ViewBag.Title = "Vendors List";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    int n = 0;
+}
+<div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card-box">
+                    <div class="row">
+                        <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+                            <div class="row">
+                                @using (Html.BeginForm("Index", "Vendors", FormMethod.Get, new { @class = "row col-md-12 col-sm-12 col-lg-12", @style = "margin-left: 10px;" }))
+                                {
+                                    <div class="form-group col-md-7 col-lg-7 col-sm-7">
+                                        @Html.TextBox("search", null, new { @class = "form-control", @placeholder = "Search by Vendor Name" })
+                                    </div>
+                                    <div class="form-group col-md-3 col-sm-3">
+                                        <button type="submit" class="btn btn-primary">Search</button>
+                                    </div>
+                                }
+                            </div>
+                            <div class="p-20">
+                                <table class="table table-hover table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <td>#</td>
+                                            <td>Name</td>
+                                            <td>Contact #</td>
+                                            <td>Address</td>
+                                            <td>Company</td>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        @foreach (var item in Model)
+                                        {
+                                            {
+                                                n += 1;
+                                            }
+                                            <tr id="showData">
+                                                <td>@n</td>
+                                                <td>@item.Name</td>
+                                                <td>@item.ContactNo</td>
+                                                <td>@item.Address</td>
+                                                <td>@item.CompanyTitle</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-md-6 m-t-20">
+                            <div>
+                                <nav>
+                                    @Html.PagedListPager(Model, page => Url.Action("Index", new { page, search = Request.QueryString["search"] }), new PagedListRenderOptions
+                               {
+                                   Display = PagedListDisplayMode.IfNeeded,
+                                   MaximumPageNumbersToDisplay = 3
+                               })
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

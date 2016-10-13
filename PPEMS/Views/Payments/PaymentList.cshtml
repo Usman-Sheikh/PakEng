@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Payment>
+
+@{
+    ViewBag.Title = "PaymentList";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    int n = 0;
+}
+
+<div class="content">
+    <div class="container">
+        <div class="col-xs-12">
+            <div class="row">
+                <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+                    <div class="p-20">
+                        <table class="table table-inverse">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Amount</th>
+                                    <th>Payment Date</th>
+                                    <th>Edit</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    {
+                                        n += 1;
+                                    }
+                                    <tr>
+                                        @Html.HiddenFor(model => item.PaymentID)
+                                        <th scope="row">@n</th>
+                                        <td>@item.Amount</td>
+                                        <td>@item.PaymentDate</td>
+                                        <td><a href="@Url.Action("Edit", "Payments", new { id = item.PaymentID })"><i class="fa-2x ion-edit"></i></a></td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

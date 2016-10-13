@@ -1,0 +1,148 @@
+﻿@model PPEMS.Models.Project
+
+@{
+    ViewBag.Title = "ProjectDetails";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<div class="content">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="page-title-box">
+                    <h4 class="page-title">@Model.Title</h4>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card-box">
+
+                    <div class="row m-t-50" style="margin-top:-15px !important;">
+                        <div class="col-md-6 m-t-20">
+                            <div>
+                                <h6 class="m-b-5">Reference #</h6>
+                                <p class="text-muted m-b-30 font-13">
+                                    @Model.ReferenceNo
+                                </p>
+                                <div class="m-b-5"></div>
+                                <h6 class="m-b-5">Client Address</h6>
+                                <p class="text-muted font-13">
+                                    @Model.ClientAddress
+                                </p>
+
+                                <div class="m-b-5"></div>
+                                <h6 class="m-b-5">Contact #</h6>
+                                <p class="text-muted font-13">
+                                    @Model.ContactNo
+                                </p>
+
+                                <div class="m-b-5"></div>
+                                <h6 class="m-b-5">Client Spokesman</h6>
+                                <p class="text-muted font-13">
+                                    @Model.ClientSpkoesman
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 m-t-20 m-t-sm-40">
+                            <h4 class="m-t-0 header-title">Comapny Name</h4>
+                            <p class="text-muted m-b-30 font-13">
+                                @Model.ClientCompanyName
+                            </p>
+                            <div class="m-b-5"></div>
+                            <h4 class="m-t-0 header-title">Client</h4>
+                            <p class="text-muted m-b-30 font-13">
+                                @Model.Client
+                            </p>
+                            <div class="m-b-5"></div>
+                            <h4 class="m-t-0 header-title">Manager</h4>
+                            <p class="text-muted m-b-30 font-13">
+                                @Model.ManagerName
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Payment Letter -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card-box table-responsive">
+                    <h4 class="m-t-0 header-title"><b>Payment Letters</b></h4>
+
+                    <div class="dataTables_wrapper form-inline dt-bootstrap4 no-footer" id="datatable_wrapper">
+                        <div class="col-md-12">
+                            <table aria-describedby="datatable_info" role="grid" id="datatable" class="table table-striped table-bordered dataTable no-footer">
+                                @{ Html.RenderAction("PaymentLattersList", "Letters", new { id = Model.ProjectID });
+                                }
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Drawing Submission -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card-box table-responsive">
+                    <h4 class="m-t-0 header-title"><b>Drawing Submission</b></h4>
+
+                    <div class="dataTables_wrapper form-inline dt-bootstrap4 no-footer" id="datatable_wrapper">
+                        <div class="col-md-12">
+                            <table aria-describedby="datatable_info" role="grid" id="datatable" class="table table-striped table-bordered dataTable no-footer">
+                                @{ Html.RenderAction("DrawingSubmissionList", "Letters", new { id = Model.ProjectID });
+                                }
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quotation Letter -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card-box table-responsive">
+                    <h4 class="m-t-0 header-title"><b>Quotation Letter</b></h4>
+
+                    <div class="dataTables_wrapper form-inline dt-bootstrap4 no-footer" id="datatable_wrapper">
+                        <div class="col-md-12">
+                            <table aria-describedby="datatable_info" role="grid" id="datatable" class="table table-striped table-bordered dataTable no-footer">
+                                @{ Html.RenderAction("QuotationLetterList", "Letters", new { id = Model.ProjectID });
+                                }
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Invoice Letter -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card-box table-responsive">
+                    <h4 class="m-t-0 header-title"><b>Invoice Letter</b></h4>
+
+                    <div class="dataTables_wrapper form-inline dt-bootstrap4 no-footer" id="datatable_wrapper">
+                        <div class="col-md-12">
+                            <table aria-describedby="datatable_info" role="grid" id="datatable" class="table table-striped table-bordered dataTable no-footer">
+                                @{ Html.RenderAction("InvoiceLetterList", "Letters", new { id = Model.ProjectID });
+                                }
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

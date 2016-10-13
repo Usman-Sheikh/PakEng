@@ -1,0 +1,55 @@
+﻿@model IEnumerable<QuotationDetails>
+@{
+    int n = 0;
+}
+<div id="datalist">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card-box table-responsive">
+                <div class="btn-group dropdown">
+                    <button type="button" class="btn btn-success waves-effect waves-light">Export</button>
+                    <button type="button" class="btn btn-success dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-expanded="false"><i class="caret"></i></button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="@Url.Action("QuoItem","Admin",new {ReportType="PDF",id=ViewBag.QuoID })">PDF>PDF</a>
+                        <a class="dropdown-item" href="@Url.Action("QuoItem","Admin",new {ReportType="Excel",id=ViewBag.QuoID })">Exc>Excel</a>
+                        <a class="dropdown-item" href="@Url.Action("QuoItem","Admin",new {ReportType="Word",id=ViewBag.QuoID })">Wor>Word</a>
+                    </div>
+                </div>
+                <table id="datatable" class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <td>#</td>
+                            <td>Unit Value</td>
+                            <td>Quantity</td>
+                            <td>Unit Cost</td>
+                            <td>Quantity Cost</td>
+                            <td>Quotation ReferenceNo</td>
+                            <td>Quotation Date</td>
+                            <td>Project </td>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            {
+                                n += 1;
+                            }
+                            <tr id="showData">
+                                <td>@n</td>
+                                <td>@item.Unit</td>
+                                <td>@item.Quantity</td>
+                                <td>@item.UnitCost</td>
+                                <td>@item.QuantityCost</td>
+                                <td>@item.Quotation.ReferenceNo</td>
+                                <td>@item.Quotation.Date.ToString("d")</td>
+                                <td>@item.Quotation.Project.Title</td>
+
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

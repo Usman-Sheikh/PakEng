@@ -1,0 +1,65 @@
+﻿@model InvoiceItems
+@{
+    ViewBag.Title = "AddItem";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>AddItem</h2>
+
+<div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="card-box">
+                    <div class="row">
+                        <div class="col-sm-12 col-xs-12 col-md-12">
+                            <div class="p-20">
+                                @*@using (Ajax.BeginForm("ChallanSelect", "Challans", new AjaxOptions { UpdateTargetId = "SelectChallan", InsertionMode = InsertionMode.ReplaceWith }))
+                                    {*@
+                                <div class="row col-md-6 col-sm-6 col-lg-6">
+                                    <div class="form-group col-md-5">
+                                        <label class="col-sm-4 form-control-label">Project<span class="text-danger">*</span></label>
+                                        @Html.DropDownList("Project", (IEnumerable<SelectListItem>)ViewBag.Pro, "Select Project", new { onchange = "loadInvoice(this.value);", @class = "form-control" })
+                                    </div>
+                                </div>
+                                @*}*@
+                                <div id="SelectInvoice">
+                                </div>
+                                <div id="InvoiceItemForm">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@*<script src="~/Scripts/jquery-1.10.2.min.js"></script>*@
+@*<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>*@
+@*<script>
+        $(document).ready(function () {
+            $('#Project').change(function () {
+                $('option:selected', $(this)).text();
+                $(this).parents('form').submit();
+            });
+        });
+    </script>*@
+
+@*<script src="~/Scripts/jquery-1.10.2.min.js"></script>*@
+<script type="text/javascript">
+    function loadInvoice(val) {
+        $('#SelectInvoice').html("please wait");
+        $.ajax({
+            url: "@Url.Action("SelectInvoice", "Invoices")",
+            type: "GET",
+            data: { Project: val },
+            success: function (data) {
+                $('#SelectInvoice').html(data);
+            },
+            error: function (xhr, error) {
+                alert('Error! ' + error);
+            }
+        });
+    }
+</script>

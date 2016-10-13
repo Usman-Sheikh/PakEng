@@ -1,0 +1,91 @@
+﻿@model PPEMS.Models.Letter
+
+@{
+    ViewBag.Title = "PaymentRequest";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<link href="~/Scripts/ckeditor/contents.css" rel="stylesheet" />
+<script src="~/Scripts/ckeditor/ckeditor.js"></script>
+<script src="~/Scripts/ckeditor/adapters/jquery.js"></script>
+<script type="text/javascript">
+    window.onload = function () {
+        CKEDITOR.replace('Body');
+    }
+</script>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+<div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="card-box">
+                    <div class="row">
+                        <div class="col-sm-12 col-xs-12 col-md-12">
+                            <div class="p-20">
+                                @using (Html.BeginForm("PaymentRequest", "Letters", FormMethod.Post))
+                                {
+
+                                    @Html.AntiForgeryToken()
+                                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 form-control-label">Project<span class="text-danger">*</span></label>
+                                        @Html.DropDownListFor(model => model.ProjectID, (IEnumerable<SelectListItem>)ViewBag.Project, "Select Project", new { @class = "form-control" })
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 form-control-label">Refrence #<span class="text-danger">*</span></label>
+                                        @Html.TextBoxFor(model => model.ReferenceNo, new { @placeholder = "Letter Reference#", @class = "form-control", @required = "required" })
+                                        @Html.ValidationMessageFor(model => model.ReferenceNo, "", new { @class = "text-danger" })
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 form-control-label">Attention<span class="text-danger">*</span></label>
+                                        @Html.TextBoxFor(model => model.Attention, new { @placeholder = "Attention", @class = "form-control", @required = "required" })
+                                        @Html.ValidationMessageFor(model => model.Attention, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 form-control-label">Subject<span class="text-danger">*</span></label>
+
+                                        @Html.TextBoxFor(model => model.Subject, new { @placeholder = "Subject", @class = "form-control", @required = "required" })
+                                        @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 form-control-label">Sender Deisignation<span class="text-danger">*</span></label>
+
+                                        @Html.TextBoxFor(model => model.SenderDesignation, new { @placeholder = "Sender Designation", @class = "form-control", @required = "required" })
+                                        @Html.ValidationMessageFor(model => model.SenderDesignation, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 form-control-label">Sender<span class="text-danger">*</span></label>
+                                        @Html.TextBoxFor(model => model.Sender, new { @placeholder = "Sender", @class = "form-control", @required = "required" })
+                                        @Html.ValidationMessageFor(model => model.Sender, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 form-control-label">Email to<span class="text-danger">*</span></label>
+                                        @Html.TextBoxFor(model => model.Email, new { @placeholder = "Reciever Email", @class = "form-control", @required = "required" })
+                                        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-4 form-control-label">Letter Body<span class="text-danger">*</span></label>
+                                        @Html.TextAreaFor(model => model.Body, 5, 8, new { @placeholder = "Body", @class = "form-control", @required = "required" })
+                                        @Html.ValidationMessageFor(model => model.Body, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-sm-8 col-sm-offset-4">
+                                            <button type="submit" class="btn btn-primary waves-effect waves-light">
+                                                Create Letter
+                                            </button>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="letter"></div>
+    </div>
+</div>

@@ -1,0 +1,56 @@
+﻿@model QuotationDetails
+@{
+    ViewBag.Title = "Create Quotation Detail";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+
+<div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="card-box">
+                    <div class="row">
+                        <div class="col-sm-12 col-xs-12 col-md-12">
+                            <h4 class="header-title m-t-0">Add Item to Quotation</h4>
+                            <div class="p-20">
+                                @*@using (Ajax.BeginForm("SelectQuo", "Admin", new AjaxOptions { UpdateTargetId = "SelectQuo", InsertionMode = InsertionMode.ReplaceWith }))
+                                    {*@
+                                <div class="row col-md-6 col-sm-6 col-lg-6">
+                                    <div class="form-group col-md-5">
+                                        <label class="col-sm-4 form-control-label">Project<span class="text-danger">*</span></label>
+                                        @Html.DropDownList("Project", (IEnumerable<SelectListItem>)ViewBag.Pro, "Select Project", new { onchange = "loadQuo(this.value);", @class = "form-control" })
+                                    </div>
+                                </div>
+                                <div id="SelectQuo">
+                                </div>
+                                @*<div id="QuoDe">
+                                </div>*@
+                                <div id="QuoDeF">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+    function loadQuo(val) {
+        $('#selectQuo').html("please wait");
+        $.ajax({
+            url: "@Url.Action("SelectQuo", "Admin")",
+            type: "GET",
+            data: { Project: val },
+            success: function (data) {
+                $('#SelectQuo').html(data);
+            },
+            error: function (xhr, error) {
+                alert('Error! ' + error);
+            }
+        });
+    }
+</script>

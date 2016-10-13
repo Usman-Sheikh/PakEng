@@ -1,0 +1,26 @@
+﻿
+<div class="row col-md-6 col-sm-6 col-lg-6">
+    <div class="form-group col-md-5">
+        <label class="col-sm-4 form-control-label">Quotation<span class="text-danger">*</span></label>
+        @Html.DropDownList("Quotation", (IEnumerable<SelectListItem>)ViewBag.Quolist, "Select Quotation", new { onchange = "loadQuoD(this.value);", @class = "form-control" })
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+    function loadQuoD(val) {
+        $('#QuoDeF').html("please wait");
+        $.ajax({
+            url: "@Url.Action("SelectQuoDetailF", "Admin")",
+            type: "GET",
+            data: { Quotation: val },
+            success: function (data) {
+                $('#QuoDeF').html(data);
+            },
+            error: function (xhr, error) {
+                alert('Error! ' + error);
+            }
+        });
+    }
+</script>
