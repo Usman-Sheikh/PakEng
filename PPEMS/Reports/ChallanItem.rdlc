@@ -233,7 +233,7 @@
         </TablixRowHierarchy>
         <DataSetName>ChallanItem</DataSetName>
         <Height>0.5in</Height>
-        <Width>6.5in</Width>
+        <Width>6.50001in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -244,7 +244,7 @@
     <Height>0.5in</Height>
     <Style />
   </Body>
-  <Width>6.5in</Width>
+  <Width>6.50001in</Width>
   <Page>
     <PageHeader>
       <Height>0.37375in</Height>

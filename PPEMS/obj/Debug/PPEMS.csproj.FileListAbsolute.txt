@@ -451,6 +451,9 @@ E:\Github\PakEng\PPEMS\bin\roslyn\System.Reflection.Metadata.dll
 E:\Github\PakEng\PPEMS\bin\roslyn\vbc.exe
 E:\Github\PakEng\PPEMS\bin\roslyn\VBCSCompiler.exe
 E:\Github\PakEng\PPEMS\bin\roslyn\VBCSCompiler.exe.config
+E:\Github\PakEng\PPEMS\bin\Reports\ChallanItem.rdlc
+E:\Github\PakEng\PPEMS\bin\Reports\InvoiceItem.rdlc
+E:\Github\PakEng\PPEMS\bin\Reports\QuoItemReport.rdlc
 E:\Github\PakEng\PPEMS\bin\PPEMS.dll.config
 E:\Github\PakEng\PPEMS\bin\PPEMS.dll
 E:\Github\PakEng\PPEMS\bin\PPEMS.pdb
@@ -471,6 +474,8 @@ E:\Github\PakEng\PPEMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
 E:\Github\PakEng\PPEMS\bin\Microsoft.Owin.Security.OAuth.dll
 E:\Github\PakEng\PPEMS\bin\Microsoft.Owin.Security.Twitter.dll
 E:\Github\PakEng\PPEMS\bin\Microsoft.ReportViewer.Common.dll
+E:\Github\PakEng\PPEMS\bin\Microsoft.ReportViewer.DataVisualization.dll
+E:\Github\PakEng\PPEMS\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
 E:\Github\PakEng\PPEMS\bin\Microsoft.ReportViewer.WebForms.dll
 E:\Github\PakEng\PPEMS\bin\Microsoft.Web.Infrastructure.dll
 E:\Github\PakEng\PPEMS\bin\Newtonsoft.Json.dll
