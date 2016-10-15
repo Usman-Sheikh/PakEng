@@ -182,7 +182,7 @@ namespace PPEMS.Controllers
         public FileResult QuoItem(int id,string ReportType)
         {
             LocalReport lr = new LocalReport();
-            lr.ReportPath= Server.MapPath("~/Reports/QuoItemReport.rdlc");
+            lr.ReportPath= Server.MapPath("~/Content/QuoItemReport.rdlc");
 
             ReportDataSource rd = new ReportDataSource();
             rd.Name = "QtoItemDetail";
@@ -211,7 +211,7 @@ namespace PPEMS.Controllers
         public FileResult InvItem(int id, string ReportType)
         {
             LocalReport lr = new LocalReport();
-            lr.ReportPath = Server.MapPath("~/Reports/InvoiceItem.rdlc");
+            lr.ReportPath = Server.MapPath("~/Content/InvoiceItem.rdlc");
 
             ReportDataSource rd = new ReportDataSource();
             rd.Name = "InvoiceItem";
@@ -240,7 +240,7 @@ namespace PPEMS.Controllers
         public FileResult ChallanItem(int id, string ReportType)
         {
             LocalReport lr = new LocalReport();
-            lr.ReportPath = Server.MapPath("~/Reports/ChallanItem.rdlc");
+            lr.ReportPath = Server.MapPath("~/Content/ChallanItem.rdlc");
 
             ReportDataSource rd = new ReportDataSource();
             rd.Name = "ChallanItem";

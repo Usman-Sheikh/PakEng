@@ -843,6 +843,9 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Content\ChallanItem.rdlc" />
+    <EmbeddedResource Include="Content\InvoiceItem.rdlc" />
+    <EmbeddedResource Include="Content\QuoItemReport.rdlc" />
     <EmbeddedResource Include="Migrations\201610121142121_initial.resx">
       <DependentUpon>201610121142121_initial.cs</DependentUpon>
     </EmbeddedResource>
